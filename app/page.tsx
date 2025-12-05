@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "BTC 5-Min Prediction",
+    title: "FCST",
     description: "Predict BTC price movement in the next 5 minutes!",
     other: {
       ...(await fetchMetadata(
@@ -19,7 +19,7 @@ export default function Page() {
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
-          Welcome to <Link className="text-blue-600" href="/">BTC Prediction Frame</Link>
+          Welcome to <Link className="text-blue-600" href="/">FCST</Link>
         </h1>
         <p className="mt-3 text-2xl">
           Paste this URL into Warpcast to play!

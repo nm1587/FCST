@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BTC Prediction Frame",
+  title: "FCST - BTC Prediction",
   description: "Farcaster Frame for BTC Prediction",
 };
 
